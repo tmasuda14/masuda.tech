@@ -1,4 +1,33 @@
-.App {
+ul {
+  list-style: none;
+}
+
+footer {
+  text-align: center;
+}
+
+.light-text {
+  opacity: .2;
+  font-size: .9rem;
+}
+
+.jumbotron {
+  background-image: url("./images/Sunset-And-Boat.jpg"); 
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  min-height: 540px;
+}
+
+.page-description {
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +64,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
