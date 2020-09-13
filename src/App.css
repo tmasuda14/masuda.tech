@@ -7,11 +7,12 @@ ul {
   font-size: .9rem;
 }
 
-.card {
+.card-primary {
   margin-left: 10%;
   margin-right: 10%;
-  background-color: rgba(116, 121, 104, 0.39);
-  border-radius: 15px;
+  background-color: rgba(160, 161, 156, 0.5);
+  border-radius: 10px;
+  border: 0.1rem solid black;
 }
 
 .jumbotron {
@@ -25,9 +26,9 @@ ul {
   margin-top: 4rem;
 }
 
-.carousel-inner {
-  height: 540px;
-  width: auto;
+.d-block {
+  height: 420px;
+  width: 100%;
 }
 
 .page-description {

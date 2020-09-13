@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import NavBar from "./components/NavBar";
 import Header from "./components/Header";
-import PageDescription from "./components/PageDescription";
-import ProjectCard from "./components/ProjectCard";
+import DescriptionCard from "./components/DescriptionCard";
+import DisplayCarousel from "./components/DisplayCarousel";
 import Footer from "./components/Footer";
 
 function App() {
@@ -11,8 +11,8 @@ function App() {
     <div>
       <NavBar />
       <Header />
-      <PageDescription />
-      <ProjectCard />
+      <DescriptionCard />
+      <DisplayCarousel />
       <Footer />
     </div>
   );
