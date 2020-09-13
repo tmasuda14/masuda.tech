@@ -5,7 +5,7 @@ function Footer() {
     let year = new Date().getFullYear();
 
     return (
-    <footer>Copyright {year} <br/><span className="light-text">Tai Masuda</span></footer>
+    <footer className="footer">Copyright {year} <br/><span className="light-text">Tai Masuda</span></footer>
     )
 }
 

@@ -3,22 +3,22 @@ import React from "react";
 function PageDescription() {
     return (
         <div className="page-description">
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-dark">Go somewhere</a>
+            <div className="row">
+                <div className="col-sm-6">
+                    <div className="card">
+                        <div className="card-body">
+                            <h5 className="card-title">Computer Science Graduate</h5>
+                            <p className="card-text">Combining extensive customer service knowledge <br/> with logical, thoughful programming.</p>
+                            <a href="#" className="btn btn-dark">Resume</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-dark">Go somewhere</a>
+                <div className="col-sm-6">
+                    <div className="card">
+                        <div className="card-body">
+                            <h5 className="card-title">Continued Learning As A Passion</h5>
+                            <p className="card-text">Writing clean, efficient code daily. <br/> Always striving for improvement.  </p>
+                            <a href="#" className="btn btn-dark">Projects</a>
                         </div>
                     </div>
                 </div>
