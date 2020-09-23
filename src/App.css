@@ -8,11 +8,28 @@ ul.contact-list {
   text-align: center;
 }
 
+.carousel-custom {
+  max-width: 620px;
+  
+}
+
+.card-custom {
+  margin-top: 40px;
+  margin-bottom: 1rem;
+}
+
 .light-text {
   opacity: .2;
   font-size: .9rem;
 }
 
+.header-title {
+  text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.76);
+}
+
+.nav-custom {
+  opacity: 0.9;
+}
 
 .linkedin-link {
   text-decoration: none;
@@ -39,12 +56,18 @@ a.email-link {
 .jumbotron {
   background-image: url("./images/Sunset-And-Boat.jpg");
   -webkit-background-size: 100% 100%;
-  background-size: 100% 100%;
+  /* background-size: 100% 100%; */
+  /* background-size: contain; */
+  /* background-repeat: no-repeat; */
   min-height: 620px;
 }
 
 .carousel {
   margin-top: 4rem;
+}
+
+.card.card-body {
+  background-color: rgb(163, 162, 162);
 }
 
 .d-block {

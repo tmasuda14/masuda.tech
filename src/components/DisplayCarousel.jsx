@@ -3,7 +3,7 @@ import React from "react";
 
 function DisplayCarousel() {
     return (
-        <div className="container">
+        <div className="container  carousel-custom">
             <div id="projectCarousel" className="carousel" data-ride="carousel">
                 <ol className="carousel-indicators">
                     <li data-target="#projectCarousel" data-slide-to="0" className="active"></li>
