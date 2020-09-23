@@ -1,3 +1,7 @@
+body {
+  line-height: 2em;
+}
+
 ul {
   font-weight: bold;  
   list-style: none;
@@ -6,11 +10,11 @@ ul {
 ul.contact-list {
   line-height: 1.5rem;
   text-align: center;
+  margin-left: -40px;
 }
 
 .carousel-custom {
-  max-width: 620px;
-  
+  max-width: 720px;
 }
 
 .card-custom {
@@ -28,7 +32,7 @@ ul.contact-list {
 }
 
 .nav-custom {
-  opacity: 0.9;
+  opacity: 0.95;
 }
 
 .linkedin-link {
@@ -41,7 +45,7 @@ ul.contact-list {
   color: rgb(187, 115, 21);
 }
 
-a.email-link {
+a.email-cell-link {
   color: black;
 }
 
@@ -67,7 +71,7 @@ a.email-link {
 }
 
 .card.card-body {
-  background-color: rgb(163, 162, 162);
+  background-color: rgb(221, 221, 221);
 }
 
 .d-block {
