@@ -20,7 +20,7 @@ function DescriptionCard() {
                             <h5 className="card-title">Programming Knowledge</h5>
                             <hr></hr>
                             <p className="card-text">Frontend Web Developer with a love for learning. Experienced with HTML, CSS, Javascript, React, and C++. Writing thoughtful, efficient code daily. Always striving for improvement.  </p>
-                            <a href="#projectCarousel" className="btn btn-dark">Projects (WIP)</a>
+                            <a href="#projectCarousel" className="btn btn-dark">Projects (Coming Soon)</a>
                         </div>
                     </div>
                 </div>
@@ -29,17 +29,17 @@ function DescriptionCard() {
                         <div className="card-body">
                             <h5 className="card-title">Professional Experience</h5>
                             <hr></hr>
-                            <p className="card-text">Interacting daily with a wide array of people and circumstances has instilled solid understanding of true customer service and appreciation of the hardships people endure daily. Striving to meet the high expectations of patients and managers has allowed me to thrive in a fast paced, high-stress job environment and consistently meet their needs.</p>
-                            <a href="mailto:tmasuda14@gmail.com" className="btn btn-dark">Request Letters Recommendation (email)</a>
+                            <p className="card-text">Daily interactions with a wide array of people and circumstances has instilled solid understanding of true customer service and appreciation of the hardships people endure daily. Striving to meet the high expectations of patients and managers has allowed me to thrive in a fast paced, high-stress job environment and consistently meet their needs.</p>
+                            <a href="mailto:tmasuda14@gmail.com" className="btn btn-dark">Request Letters of Recommendation (email)</a>
                         </div>
                     </div>
                 </div>
                 <div className="col-sm-6">
                     <div className="card card-primary card-custom">
                         <div className="card-body">
-                            <h5 className="card-title">Continued Learning As A Goal</h5>
+                            <h5 className="card-title">Continuing Education</h5>
                             <hr></hr>
-                            <p className="card-text">My passion for programming keeps me searching for cleaner, more efficient strategies to write code. Currently learning backend and iOS app development for further self-growth.     </p>
+                            <p className="card-text">My passion for programming keeps me searching for cleaner, more efficient strategies to write code. Currently learning backend and iOS app development for continuing growth.     </p>
                             <a href="https://github.com/tmasuda14" className="btn btn-dark"><i className="fab fa-github"></i> GitHub</a>
                         </div>
                     </div>

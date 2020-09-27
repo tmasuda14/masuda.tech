@@ -13,6 +13,10 @@ ul.contact-list {
   margin-left: -40px;
 }
 
+hr {
+  width: 60%;
+}
+
 .carousel-custom {
   max-width: 720px;
 }
