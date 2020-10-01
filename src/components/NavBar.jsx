@@ -25,7 +25,13 @@ function NavBar() {
                         </div>
                     </li>
                 </ul>
-            </div>
+            </div>  
+                <div>
+                    <label className="switch">
+                        <input type="checkbox"></input>
+                        <span className="slider"></span>
+                    </label>
+                </div>
         </nav>
     )
 }
