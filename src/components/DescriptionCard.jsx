@@ -1,46 +1,48 @@
 import React from "react";
+import cardList from "../assets/cardList";
 
 function DescriptionCard() {
+
     return (
         <div className="page-description">
             <div className="row">
                 <div className="col-sm-6 card-custom">
                     <div className="card card-primary">
                         <div className="card-body">
-                            <h3 className="card-title"><u>Tai Masuda</u></h3>
+                            <h3 className="card-title"><u>{cardList[0].title}</u></h3>
                             <hr></hr>
-                            <p className="card-text">A Computer Science graduate with extensive customer service knowledge, teamwork ability, and self-motivation.</p>
-                            <a href="http://linkedin.com/in/tai-masuda-ba72771b7" className="btn btn-dark">Linked<i className="fab fa-linkedin"></i></a>
+                            <p className="card-text">{cardList[0].textField}</p>
+                            <a href={cardList[0].buttonLink} className="btn btn-dark">{cardList[0].buttonText}<i className="fab fa-linkedin"></i></a>
                         </div>
                     </div>
                 </div>
                 <div className="col-sm-6">
                     <div className="card card-primary card-custom">
                         <div className="card-body">
-                            <h5 className="card-title">Programming Knowledge</h5>
+                            <h5 className="card-title">{cardList[1].title}</h5>
                             <hr></hr>
-                            <p className="card-text">Frontend Web Developer with a love for learning. Experienced with HTML, CSS, Javascript, React, and C++. Writing thoughtful, efficient code daily. Always striving for improvement.  </p>
-                            <a href="#projectCarousel" className="btn btn-dark">Projects (Coming Soon)</a>
+                            <p className="card-text">{cardList[1].textField}</p>
+                            <a href={cardList[1].buttonLink} className="btn btn-dark">{cardList[1].buttonText}</a>
                         </div>
                     </div>
                 </div>
                 <div className="col-sm-6">
                     <div className="card card-primary card-custom">
                         <div className="card-body">
-                            <h5 className="card-title">Professional Experience</h5>
+                            <h5 className="card-title">{cardList[2].title}</h5>
                             <hr></hr>
-                            <p className="card-text">Daily interactions with a wide array of people and circumstances has instilled solid understanding of true customer service and appreciation of the hardships people endure daily. Striving to meet the high expectations of patients and managers has allowed me to thrive in a fast paced, high-stress job environment and consistently meet their needs.</p>
-                            <a href="mailto:tmasuda14@gmail.com" className="btn btn-dark">Request Letters of Recommendation (email)</a>
+                            <p className="card-text">{cardList[2].textField}</p>
+                            <a href={cardList[2].buttonLink} className="btn btn-dark">{cardList[2].buttonText}</a>
                         </div>
                     </div>
                 </div>
                 <div className="col-sm-6">
                     <div className="card card-primary card-custom">
                         <div className="card-body">
-                            <h5 className="card-title">Continuing Education</h5>
+                            <h5 className="card-title">{cardList[3].title}</h5>
                             <hr></hr>
-                            <p className="card-text">My passion for programming keeps me searching for cleaner, more efficient strategies to write code. Currently learning backend and iOS app development for continuing growth.     </p>
-                            <a href="https://github.com/tmasuda14" className="btn btn-dark"><i className="fab fa-github"></i> GitHub</a>
+                            <p className="card-text">{cardList[3].textField}</p>
+                            <a href={cardList[3].buttonLink} className="btn btn-dark"><i className="fab fa-github"></i>{cardList[3].buttonText}</a>
                         </div>
                     </div>
                 </div>

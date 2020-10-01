@@ -37,6 +37,10 @@ hr {
 
 .nav-custom {
   opacity: 0.95;
+  margin-right: -15px;
+}
+.navbar-brand {
+  margin-left: 20px;
 }
 
 .linkedin-link {
@@ -62,12 +66,14 @@ a.email-cell-link {
 }
 
 .jumbotron {
-  background-image: url("./images/Sunset-And-Boat.jpg");
+  background-image: url("./assets/images/Sunset-And-Boat.jpg");
   -webkit-background-size: 100% 100%;
-  /* background-size: 100% 100%; */
-  /* background-size: contain; */
-  /* background-repeat: no-repeat; */
+  background-size: 100% 100%; 
+  /* background-size: contain;  */
+  background-color: black;
+  background-repeat: no-repeat;
   min-height: 620px;
+  margin-right: -15px;
 }
 
 .carousel {
