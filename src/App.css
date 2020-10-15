@@ -19,13 +19,22 @@ hr {
   width: 60%;
 }
 
-.carousel-custom {
-  max-width: 720px;
+#home {
+  margin-top: 50px;
 }
 
-.card-custom {
-  margin-top: 40px;
-  margin-bottom: 1rem;
+/* Footer Styles */
+
+.footer {
+  margin: 3rem;
+  text-align: center;
+}
+
+.footer-professional {
+  margin: 3rem;
+  text-align: center;
+  background-color: #767580;
+  margin: 0;
 }
 
 .light-text {
@@ -33,17 +42,22 @@ hr {
   font-size: .9rem;
 }
 
-.header-title {
-  text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.76);
-}
+/*
+NavBar component containing links to website sections and contact information.
+*/
 
 .nav-custom {
+  position: fixed;
+  width: 100%;
   opacity: 0.95;
   margin-right: -15px;
 }
+
 .navbar-brand {
   margin-left: 20px;
 }
+
+/* Within NavBar component, contact links. */
 
 .linkedin-link {
   text-decoration: none;
@@ -59,6 +73,70 @@ a.email-cell-link {
   color: black;
 }
 
+/* Within NavBar, toggle website theme */
+
+.mood-toggler {
+  margin-right: 2%;
+}
+
+.toggle-mood {
+  border-radius: 4px;
+}
+
+.toggle-mood:hover {
+  background-color: rgb(233, 233, 233);
+}
+
+/* 
+Header component containing main page display.
+*/
+
+.header-title {
+  text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.76);
+}
+
+.header-title-professional {
+  float: center;
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: url("./assets/images/Sunset-And-Boat.jpg");
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%; 
+  background-color: black;
+  background-repeat: no-repeat;
+  min-height: 620px;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.jumbotron-professional {
+  background-image: url("./assets/images/self-portrait.png");
+  background-position-x: 50%;
+  -webkit-background-size: 100% 100%;
+  background-size: auto 120%; 
+  background-color: rgb(80, 47, 47);
+  background-repeat: no-repeat;
+  min-height: 620px;
+  /* margin-right: -15px; */
+  color: white;
+}
+
+/* 
+Description Card Component containing personal background information and media links
+*/
+
+.page-description {
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.page-description-professional {
+  background-color: silver;
+}
+
 .card-primary {
   margin-left: 10%;
   margin-right: 10%;
@@ -67,90 +145,49 @@ a.email-cell-link {
   border: 0.1rem solid black;
 }
 
-.jumbotron {
-  background-image: url("./assets/images/Sunset-And-Boat.jpg");
-  -webkit-background-size: 100% 100%;
-  background-size: 100% 100%; 
-  /* background-size: contain;  */
-  background-color: black;
-  background-repeat: no-repeat;
-  min-height: 620px;
-  margin-right: -15px;
+.card-primary-professional {
+  /* margin-left: 10%;
+  margin-right: 10%;
+  background-color: rgba(160, 161, 156, 0.5); */
+
+  border-radius: 0;
+  border: 0.1rem solid black;
+  background-color: rgb(119, 116, 128);
 }
+
+.card.card-body {
+  background-color: rgb(221, 221, 221);
+  margin-bottom: 10px;
+}
+
+
+.card-custom {
+  margin-top: 40px;
+  margin-bottom: 1rem;
+}
+
+/* 
+Display Carousel component containing projects
+*/
 
 .carousel {
   margin-top: 4rem;
 }
 
-.card.card-body {
-  background-color: rgb(221, 221, 221);
+.carousel-custom-professional {
+  max-width: 720px;
+  background-color: black;
+}
+
+.hidden-container {
+  display: none;
+}
+
+.carousel-custom {
+  max-width: 720px;
 }
 
 .d-block {
   height: 420px;
   width: 100%;
-}
-
-.page-description {
-  margin-bottom: 20px;
-}
-
-.footer {
-  margin: 3rem;
-  text-align: center;
-}
-
-.page-description {
-  text-align: center;
-  margin-top: 4rem;
-}
-
-
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
-  margin-right: 20px;
-}
-
-/* The slider */
-
-
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-input:checked + .slider {
-  background-color: #d69d5b;
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #506c83;
-}
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
 }
