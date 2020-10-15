@@ -1,13 +1,13 @@
 import React from "react";
 import cardList from "../assets/cardList";
 
-function DescriptionCard() {
+function DescriptionCard(props) {
 
     return (
-        <div className="page-description">
+        <div className={props.styleTypeProfessional ? "page-description-professional" : "page-description"}>
             <div className="row">
                 <div className="col-sm-6 card-custom">
-                    <div className="card card-primary">
+                    <div className={props.styleTypeProfessional ? "card card-primary-professional" : "card card-primary"}>
                         <div className="card-body">
                             <h3 className="card-title"><u>{cardList[0].title}</u></h3>
                             <hr></hr>
@@ -17,7 +17,7 @@ function DescriptionCard() {
                     </div>
                 </div>
                 <div className="col-sm-6">
-                    <div className="card card-primary card-custom">
+                    <div className={props.styleTypeProfessional ? "card card-primary-professional card-custom" : "card card-primary card-custom"}>
                         <div className="card-body">
                             <h5 className="card-title">{cardList[1].title}</h5>
                             <hr></hr>
@@ -27,7 +27,7 @@ function DescriptionCard() {
                     </div>
                 </div>
                 <div className="col-sm-6">
-                    <div className="card card-primary card-custom">
+                    <div className={props.styleTypeProfessional ? "card card-primary-professional card-custom" : "card card-primary card-custom"}>
                         <div className="card-body">
                             <h5 className="card-title">{cardList[2].title}</h5>
                             <hr></hr>
@@ -37,7 +37,7 @@ function DescriptionCard() {
                     </div>
                 </div>
                 <div className="col-sm-6">
-                    <div className="card card-primary card-custom">
+                    <div className={props.styleTypeProfessional ? "card card-primary-professional card-custom" : "card card-primary card-custom"}>
                         <div className="card-body">
                             <h5 className="card-title">{cardList[3].title}</h5>
                             <hr></hr>

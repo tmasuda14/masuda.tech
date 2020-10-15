@@ -1,9 +1,10 @@
 import React from "react";
 // import CarouselCard from "./CarouselCard";
 
-function DisplayCarousel() {
+function DisplayCarousel(props) {
+
     return (
-        <div className="container  carousel-custom">
+        <div className={props.styleTypeProfessional ? "hidden-container" : "container  carousel-custom"}>
             <div id="projectCarousel" className="carousel" data-ride="carousel">
                 <ol className="carousel-indicators">
                     <li data-target="#projectCarousel" data-slide-to="0" className="active"></li>
