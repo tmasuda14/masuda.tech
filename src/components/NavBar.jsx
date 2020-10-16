@@ -29,7 +29,7 @@ const NavBar = (props) => {
             </ul>
         </div>  
             <div className="mood-toggler">
-                <button onClick={props.changeMood} className="toggle-mood" type="button">Toggle Theme</button>
+                <button onClick={props.changeMood} className="toggle-mood" type="button">Theme</button>
             </div>
         </nav>
         </div>

@@ -12,8 +12,10 @@ function DisplayCarousel(props) {
                     <li data-target="#projectCarousel" data-slide-to="2"></li>
                 </ol>
                 <div className="carousel-inner">
-                    <div className="carousel-item active">
+                    <div className="carousel-item active"> 
+                    <a href="https://master.d37xmlb4sk9rfm.amplifyapp.com ">
                         <img className="d-block w-100" src="https://assets.skyfilabs.com/images/blog/good-computer-science-projects-for-beginners.webp" alt="First slide" />
+                    </a>
                     </div>
                     <div className="carousel-item">
                         <img className="d-block w-100" src="https://www.lemnisk.co/blog/wp-content/uploads/2019/05/cross-device-data.png" alt="Second slide" />

@@ -7,8 +7,8 @@ const cardList = [
     },{
         title: "Programming Knowledge",
         textField: "Frontend Web Developer with a love for learning. Experienced with HTML, CSS, Javascript, React, and C++. Writing thoughtful, efficient code daily. Always striving for improvement.  ",
-        buttonText: "Projects (Coming Soon)",
-        buttonLink: "#projectCarousel"
+        buttonText: "Project - Temperature Converter",
+        buttonLink: "https://master.d37xmlb4sk9rfm.amplifyapp.com"
     },{
         title: "Professional Experience",
         textField: "Daily interactions with a wide array of people and circumstances has instilled solid understanding of true customer service and appreciation of the hardships people endure daily. Striving to meet the high expectations of patients and managers has allowed me to thrive in a fast paced, high-stress job environment and consistently meet their needs.",

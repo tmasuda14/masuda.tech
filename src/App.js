@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
 
-  const [professional, setProfessional] = useState(false);
+  const [professional, setProfessional] = useState(true);
  
   const handleClick = (event) => {
       setProfessional(!professional);
