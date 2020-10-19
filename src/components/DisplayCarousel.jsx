@@ -1,5 +1,6 @@
 import React from "react";
 // import CarouselCard from "./CarouselCard";
+import firstImg from "../assets/images/temp-converter-app.png";
 
 function DisplayCarousel(props) {
 
@@ -14,7 +15,7 @@ function DisplayCarousel(props) {
                 <div className="carousel-inner">
                     <div className="carousel-item active"> 
                     <a href="https://master.d37xmlb4sk9rfm.amplifyapp.com ">
-                        <img className="d-block w-100" src="https://assets.skyfilabs.com/images/blog/good-computer-science-projects-for-beginners.webp" alt="First slide" />
+                        <img className="d-block w-100" src={firstImg} alt="First slide" />
                     </a>
                     </div>
                     <div className="carousel-item">

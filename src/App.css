@@ -98,6 +98,7 @@ Header component containing main page display.
 .header-title-professional {
   float: center;
   text-align: center;
+  margin-top: 60px;
 }
 
 .jumbotron {
