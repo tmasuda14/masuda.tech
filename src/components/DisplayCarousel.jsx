@@ -14,7 +14,7 @@ function DisplayCarousel(props) {
                 </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item active"> 
-                    <a href="https://master.d37xmlb4sk9rfm.amplifyapp.com ">
+                    <a href="https://main.d10geqmvjay394.amplifyapp.com/">
                         <img className="d-block w-100" src={firstImg} alt="First slide" />
                     </a>
                     </div>
