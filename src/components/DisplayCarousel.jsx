@@ -1,5 +1,4 @@
 import React from "react";
-// import CarouselCard from "./CarouselCard";
 import firstImg from "../assets/images/temp-converter-app.png";
 
 function DisplayCarousel(props) {
